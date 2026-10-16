@@ -48,7 +48,7 @@ export default function Navbar({ theme, onToggleTheme }) {
   )
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-bg/90 backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-bg">
       <nav aria-label="Navigation principale" className="container-page flex h-16 items-center justify-between lg:h-[72px]">
         <a href="#accueil" className="flex items-center gap-3 font-display text-lg font-bold">
           <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-sm text-white">{profile.monogram}</span>
